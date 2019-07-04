@@ -5,7 +5,7 @@
 #' @param file File containing sequences in a FASTA format
 #' @export
 #' @examples
-#' more_seq <- read_fasta_file(system.file(package = "SeqPakiet", more_seq.fa"))
+#' more_seq <- read_fasta_file(system.file(package = "SeqPakiet", "more_seq.fa"))
 #' seq <- read_fasta_file(system.file(package = "SeqPakiet", "seq.fa"))
 
 read_fasta_file <- function(file) {

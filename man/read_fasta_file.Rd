@@ -16,6 +16,6 @@ Reads in fasta files and stores sequences
 Function that reads fasta files and stores sequences in a named list
 }
 \examples{
-more_seq <- read_fasta_file("/home/kasia/RProjects/SeqPakiet/inst/more_seq.fa")
-seq <- read_fasta_file("/home/kasia/RProjects/SeqPakiet/inst/seq.fa")
+more_seq <- read_fasta_file(system.file(package = "SeqPakiet", "more_seq.fa"))
+seq <- read_fasta_file(system.file(package = "SeqPakiet", "seq.fa"))
 }
